@@ -50,3 +50,7 @@ h2 {
   transform: rotate(45deg);
   background-color: #242424;
 }
+
+@media (min-width: 768px) { 
+  
+ }

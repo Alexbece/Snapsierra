@@ -1,6 +1,6 @@
 import { useState } from "react";
 import DropdownCategory from "./DropdownCategory";
-import profile from "../../assets/img/23.png";
+import profile from "../../assets/img/Photo/23.png";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {

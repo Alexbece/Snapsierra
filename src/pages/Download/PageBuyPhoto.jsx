@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../../assets/img/1.jpg";
+import photo from "../../assets/img/Photo/1.jpg";
 import { useNavigate } from "react-router-dom";
 
 export default function PageBuyPhoto() {
