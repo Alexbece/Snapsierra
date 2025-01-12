@@ -12,7 +12,6 @@ export default {
         "nav-menu": "#9B9B9B",
         "bg-input": "#242424",
         'ph-input': "#AAAAAA",
-        'ph-input': "#bbbbbb",
       },
       padding: {
         px90: "90px",
