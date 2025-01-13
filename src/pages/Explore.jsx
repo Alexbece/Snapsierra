@@ -10,7 +10,6 @@ export default function Explore() {
       <div className="flex flex-col gap-8">
         <Navbar />
         <Hero />
-        {/* <ExampleComponent /> */}
         <Content />
         <Footer />
       </div>

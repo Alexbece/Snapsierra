@@ -14,7 +14,9 @@ export default function Navbar() {
             href="/"
             className="text-xl transition-all semibold text- text-font"
           >
-            SNAPSIERRA.
+            SNAPSIERR<span className="relative">
+            A<span className="absolute text-xs">©</span>
+          </span>
           </a>
 
           <div

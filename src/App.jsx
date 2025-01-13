@@ -9,6 +9,8 @@ import Home from "./pages/Home.jsx";
 import Profile from "./pages/Profile.jsx";
 import PageFotoFree from "./pages/Download/PageFotoFree.jsx";
 import PageBuyPhoto from "./pages/Download/PageBuyPhoto.jsx"
+import Login from "./pages/Login.jsx"
+import SignUp from "./pages/Sign Up.jsx";
 
 export default function Sierra() {
   return (
@@ -16,6 +18,8 @@ export default function Sierra() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/Sign Up" element={<SignUp />} />
           <Route path="/Explore" element={<Explore />} />
           <Route path="/BuyPhoto" element={<BuyPhoto />} />
           <Route path="/Category/Photo" element={<Photo />} />

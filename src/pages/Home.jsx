@@ -2,6 +2,7 @@ import React from "react";
 import logoDarkBG from "../assets/logo/logo-dark-background.svg";
 import bgSection2 from "../assets/img/bg-home-1.png";
 import imgsection3 from "../assets/img/imgsection3.png";
+import Footer from "../components/Footer/Footer";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -9,8 +10,9 @@ const Home = () => {
     <>
       {/* Header Section */}
       {/* Navbar Section */}
-      <div className="flex flex-col items-center justify-center py-6 px-[90px]">
-        <div className="flex justify-between items-center gap-4 w-auto py-2 px-4 rounded-xl text-nav-menu bg-[#3d3d3d]">
+      <div className="flex flex-col items-center justify-center py-6 px-[90px] gap-4">
+        <div className="flex justify-between items-center gap-4 w-auto py-2 px-4 rounded-xl text-nav-menu bg-[#3d3d3d]"
+        sty>
           <Link to="/" className="">
             <img
               src={logoDarkBG}
@@ -35,13 +37,10 @@ const Home = () => {
 
         {/* Hero Section */}
         <div className="container flex flex-col items-center justify-center h-[675px]">
-          <h1
-            style={{ fontFamily: "'Open Sans', sans-serif" }}
-            className="items-center font-bold text-center md:text-9xl text-font sm:text-6xl"
-          >
+          <h1 className="items-center font-medium text-center md:text-9xl text-font sm:text-6xl font-Playfair">
             SNAP SIERRA
           </h1>
-          <p className="md:text-2xl text-nav-menu sm:text-xl">
+          <p className="font-extralight md:text-2xl text-nav-menu sm:text-xl font-Poppins">
             Home for your inspirations.
           </p>
         </div>
@@ -52,12 +51,13 @@ const Home = () => {
           className="container flex flex-col items-center justify-center h-screen gap-2"
           style={{
             backgroundImage: `url(${bgSection2})`,
+            backgroundSize: "cover",
           }}
         >
           <h1 className="items-center font-normal text-center text-7xl text-font">
             We keep things simple.
           </h1>
-          <p className="font-light md:flex md:text-2xl text-nav-menu sm:text-lg sm:hidden">
+          <p className="md:flex md:text-2xl text-nav-menu sm:text-lg sm:hidden font-extralight font-Poppins">
             Help you succeed through your design.
           </p>
         </div>
@@ -71,7 +71,7 @@ const Home = () => {
           />
           <div className="flex flex-col">
             <h2 className="text-[100px] text-font md:text-right">SnapSierra</h2>
-            <p className="text-xl font-light text-nav-menu md:text-right sm:text-center">
+            <p className="text-xl font-light text-nav-menu md:text-right sm:text-center font-Poppins">
               We are a platform that provides a curated collection of
               inspiration and resources, helping designers create with clarity
               and purpose. Inspiration made simple for designers.
@@ -82,17 +82,14 @@ const Home = () => {
         {/* Our Team Section */}
         <div className="flex flex-col gap-16 py-20 m-10 text-center ">
           <h1 className="text-7xl text-font ">Our Team</h1>
-          <div className="flex flex-wrap justify-center gap-16">
+          <div className="flex flex-wrap justify-center gap-20">
             <div className="flex flex-col items-center justify-center gap-2">
               <img
                 src={imgsection3}
                 className="bg-black rounded-full min-h-20 max-w-20 "
               ></img>
               <div className="block text-center">
-                <p
-                  className="text-3xl nama-personil text-font "
-                  style={{ fontFamily: "'Playfair Display', serif" }}
-                >
+                <p className="text-3xl font-Poppins font-base nama-personil text-font ">
                   Salwa Kharisma Dinata
                 </p>
                 <p className="text-lg job-personil text-nav-menu ">
@@ -107,10 +104,7 @@ const Home = () => {
                 className="bg-black rounded-full min-h-20 max-w-20 "
               ></img>
               <div className="block text-center">
-                <p
-                  className="text-3xl nama-personil text-font "
-                  style={{ fontFamily: "'Playfair Display', serif" }}
-                >
+                <p className="text-3xl font-Poppins font-base nama-personil text-font ">
                   Revina Putri Arifiansyah
                 </p>
                 <p className="text-lg job-personil text-nav-menu ">
@@ -125,10 +119,7 @@ const Home = () => {
                 className="bg-black rounded-full min-h-20 max-w-20 "
               ></img>
               <div className="block text-center">
-                <p
-                  className="text-3xl nama-personil text-font "
-                  style={{ fontFamily: "'Playfair Display', serif" }}
-                >
+                <p className="text-3xl font-Poppins font-base nama-personil text-font ">
                   Farrel Yassar Kurniwan
                 </p>
                 <p className="text-lg job-personil text-nav-menu ">Front End</p>
@@ -141,10 +132,7 @@ const Home = () => {
                 className="bg-black rounded-full min-h-20 max-w-20 "
               ></img>
               <div className="block text-center">
-                <p
-                  className="text-3xl nama-personil text-font "
-                  style={{ fontFamily: "'Playfair Display', serif" }}
-                >
+                <p className="text-3xl font-Poppins font-base nama-personil text-font ">
                   Najia Binazir
                 </p>
                 <p className="text-lg job-personil text-nav-menu ">
@@ -159,10 +147,7 @@ const Home = () => {
                 className="bg-black rounded-full min-h-20 max-w-20 "
               ></img>
               <div className="block text-center">
-                <p
-                  className="text-3xl nama-personil text-font "
-                  style={{ fontFamily: "'Playfair Display', serif" }}
-                >
+                <p className="text-3xl font-Poppins font-base nama-personil text-font ">
                   Mochammad Fauzan Azzaki
                 </p>
                 <p className="text-lg job-personil text-nav-menu ">Back End</p>
@@ -183,6 +168,8 @@ const Home = () => {
         </div>
         {/* End Header Section */}
       </div>
+
+      <Footer></Footer>
     </>
   );
 };

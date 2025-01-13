@@ -6,6 +6,11 @@ export default {
       placeholderColor: {
         'ph-input': "#AAAAAA"
       },
+      fontFamily: {
+        'Open-sans': ['"Open Sans"', 'sans-serif'],
+        'Poppins': ['"Poppins"', 'sans-serif'],
+        'Playfair': ['"Playfair Display"', 'serif'],
+      },
       colors: {
         primary: "#131313",
         font: "#e2e2e2",
@@ -25,7 +30,21 @@ export default {
           xl: "5rem",
           '2xl':'6rem',
         }
-      }
+      },
+      animation: {
+        orbitPhotos: "orbitPhotos 10s linear infinite",
+        rotatePhotos: "rotatePhotos 10s linear infinite",
+      },
+      keyframes: {
+        orbitPhotos: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
+        rotatePhotos: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(-360deg)" },
+        },
+      },
     },
   },
   plugins: [],
