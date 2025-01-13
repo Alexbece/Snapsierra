@@ -52,7 +52,6 @@ const Home = () => {
           className="container flex flex-col items-center justify-center h-screen gap-2"
           style={{
             backgroundImage: `url(${bgSection2})`,
-            backgroundSize: "cover",
           }}
         >
           <h1 className="items-center font-normal text-center text-7xl text-font">
@@ -64,14 +63,14 @@ const Home = () => {
         </div>
 
         {/* Section 3 */}
-        <div className="flex items-center justify-between w-full md:py-5 gap-auto px-[130px] h-[600px] ">
+        <div className="flex items-center justify-between md:w-full md:py-5 gap-auto px-[130px] h-[600px]">
           <img
             src={imgsection3}
             alt=""
             className="max-w-[450px] md:flex sm:hidden"
           />
           <div className="flex flex-col">
-            <h2 className="text-right text-[100px] text-font ">SnapSierra</h2>
+            <h2 className="text-[100px] text-font md:text-right">SnapSierra</h2>
             <p className="text-xl font-light text-nav-menu md:text-right sm:text-center">
               We are a platform that provides a curated collection of
               inspiration and resources, helping designers create with clarity
@@ -83,7 +82,7 @@ const Home = () => {
         {/* Our Team Section */}
         <div className="flex flex-col gap-16 py-20 m-10 text-center ">
           <h1 className="text-7xl text-font ">Our Team</h1>
-          <div className="flex flex-wrap justify-center gap-16 ">
+          <div className="flex flex-wrap justify-center gap-16">
             <div className="flex flex-col items-center justify-center gap-2">
               <img
                 src={imgsection3}
@@ -174,11 +173,11 @@ const Home = () => {
 
         {/* Sign Up Section */}
         <div className="flex flex-col items-center justify-center h-screen gap-9">
-          <h1 className="leading-normal text-center text-7xl text-font ">
+          <h1 className="leading-normal text-center md:text-7xl text-font sm:text-4xl">
             Create your own experience <br />
             with <span className="text-nav-menu">SnapSierra</span>.
           </h1>
-          <button className="py-4 w-max bg-[#e2e2e2] text-3xl font-bold text-primary px-7 rounded-full hover:bg-primary hover:text-font transition-all ease-out ">
+          <button className="md:py-4 w-max bg-[#e2e2e2] md:text-3xl sm:text-md font-bold text-primary px-7 rounded-full hover:bg-primary hover:text-font transition-all ease-out sm:py-2">
             <a href="/Sign Up">SIGN UP</a>
           </button>
         </div>

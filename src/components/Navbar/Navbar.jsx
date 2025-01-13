@@ -43,7 +43,7 @@ export default function Navbar() {
             </li>
 
             <li className="text-nav-menu hover:text-font text-nowrap">
-              <a href="/BuyPhoto">Buy Photo</a>
+              <a href="/BuyPhoto">Buy Assets</a>
             </li>
           </ul>
 

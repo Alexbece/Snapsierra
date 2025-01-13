@@ -57,7 +57,7 @@ const Content = () => {
               ))}
             </div>
 
-      <p className="font-serif text-2xl font-light text-center text-nav-menu">
+      <p className="font-serif font-light text-center md:text-2xl text-nav-menu sm:text-md">
         The more inspiration has yet to be found.
       </p>
     </div>

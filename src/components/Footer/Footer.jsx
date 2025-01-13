@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="container bg-[#1C1C1C] max-h-max flex flex-col py-10">
+    <div className="container bg-[#1C1C1C] max-h-max md:flex flex-col py-10 sm:hidden">
       <div className="flex justify-between px-[90px]">
         <p className="text-[1.8rem] text-font">
           Find your home of <br />
