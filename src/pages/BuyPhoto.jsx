@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
+import NavbarG from "../components/Navbar/NavbarGuest";
 import Footer from "../components/Footer/Footer";
 
 const BuyPhoto = () => {
@@ -41,9 +42,9 @@ const BuyPhoto = () => {
 
   return (
     <div className="flex flex-col gap-8">
-      <Navbar />
+      <NavbarG />
       <ul className="flex justify-center gap-5 py-3 text-nav-menu/50 ">
-        <li className="transition-all cursor-pointer hover:text-font hover:text-lg">Featured</li>
+        <li className="transition-all cursor-pointer hover:text-font hover:text-lg text-font">Featured</li>
         <li className="transition-all cursor-pointer hover:text-font hover:text-lg">Graphic Design</li>
         <li className="transition-all cursor-pointer hover:text-font hover:text-lg">Art</li>
         <li className="transition-all cursor-pointer hover:text-font hover:text-lg">Architecture</li>

@@ -11,12 +11,10 @@ export default function Navbar() {
         <nav className="flex items-center justify-between gap-9 px-[90px] py-6 ">
           <a
             class="logo"
-            href="/"
+            href="/Explore"
             className="text-xl transition-all semibold text- text-font"
           >
-            SNAPSIERR<span className="relative">
-            A<span className="absolute text-xs">©</span>
-          </span>
+            SNAPSIERRA.
           </a>
 
           <div

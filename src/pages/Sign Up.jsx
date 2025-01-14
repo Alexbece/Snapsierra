@@ -57,7 +57,7 @@ export default function SignUp() {
                     type="password"
                   />
                 </div>
-                <Link to="/Full name">
+                <Link to="/Name">
                   <button className="px-10 py-3 mt-10 text-sm font-bold transition bg-font text-primary w-max rounded-3xl hover:border-2 hover:border-font hover:bg-primary hover:text-font font-poppins">
                     Sign Up
                   </button>

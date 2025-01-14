@@ -36,13 +36,18 @@ export default function SignUp() {
               {/* Form */}
               <form className="flex flex-col items-center">
                   <input
-                    className="w-full py-3 my-4 text-xl border-b-2 border-nav-menu text-font bg-primary focus:outline-none font-Playfair"
+                    className="w-full py-3 my-4 text-base border-b-2 border-nav-menu text-font placeholder-nav-menu bg-primary focus:outline-none font-Playfair"
                     placeholder="What's your full name?"
                     type="text"
                   />
-                <Link to="/Birth">
-                  <button className="px-3 py-2 mt-10 text-4xl font-bold transition rounded-full bg-nav-menu text-primary hover:border-2 hover:border-font hover:bg-primary hover:text-font font-poppins">
-                  <i class='bx bx-right-arrow-alt'></i>
+                  <input
+                    className="w-full py-3 my-4 text-base border-b-2 border-nav-menu text-font placeholder-nav-menu bg-primary focus:outline-none font-Playfair"
+                    placeholder="Claim your username"
+                    type="text"
+                  />
+                <Link to="/Explore">
+                  <button className="px-3 py-2 mt-8 font-bold transition rounded-full text-lgxl bg-nav-menu text-primary hover:border-2 hover:border-font hover:bg-primary hover:text-font font-Poppins">
+                  Submit
                   </button>
                 </Link>
               </form>
