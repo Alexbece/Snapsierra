@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const DropdownCategory = () => {
   return (
-    <div className="flex flex-col dropdownCategory">
+    <div className="z-10 flex flex-col dropdownCategory">
       <ul className="flex flex-col gap-6 text-md text-font">
         <Link to="/Category/Photo">
           <li className="flex items-center gap-2 cursor-pointer">

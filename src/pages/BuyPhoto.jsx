@@ -42,13 +42,13 @@ const BuyPhoto = () => {
   return (
     <div className="flex flex-col gap-8">
       <Navbar />
-      <ul className="flex justify-center gap-5 py-3 cursor-pointer text-nav-menu/50 ">
-        <li className="transition-all hover:text-font hover:text-lg">Featured</li>
-        <li className="transition-all hover:text-font hover:text-lg">Graphic Design</li>
-        <li className="transition-all hover:text-font hover:text-lg">Art</li>
-        <li className="transition-all hover:text-font hover:text-lg">Architecture</li>
-        <li className="transition-all hover:text-font hover:text-lg">Love</li>
-        <li className="transition-all hover:text-font hover:text-lg">Typography</li>
+      <ul className="flex justify-center gap-5 py-3 text-nav-menu/50 ">
+        <li className="transition-all cursor-pointer hover:text-font hover:text-lg">Featured</li>
+        <li className="transition-all cursor-pointer hover:text-font hover:text-lg">Graphic Design</li>
+        <li className="transition-all cursor-pointer hover:text-font hover:text-lg">Art</li>
+        <li className="transition-all cursor-pointer hover:text-font hover:text-lg">Architecture</li>
+        <li className="transition-all cursor-pointer hover:text-font hover:text-lg">Love</li>
+        <li className="transition-all cursor-pointer hover:text-font hover:text-lg">Typography</li>
       </ul>
 
       <div className="flex flex-col items-center w-full gap-16 mb-8">

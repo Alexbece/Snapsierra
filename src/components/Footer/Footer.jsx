@@ -11,7 +11,7 @@ export default function Footer() {
         <ul>
           <label className="text-[#505050]">USEFUL</label>
           <li className="text-nav-menu"><a href="/Explore">Explore</a></li>
-          <li className="text-nav-menu"><a href="/BuyPhoto">Buy Photo</a></li>
+          <li className="text-nav-menu"><a href="/BuyPhoto">Buy Assets</a></li>
         </ul>
       </div>
 
